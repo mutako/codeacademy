@@ -7,11 +7,22 @@
 </head>
 
 <body>
-  <div class="topnav">
-    <a class="active" href="#home">Home</a>
+  /* this is the dropdown navigation panel */
+  <div class="navbar">
+    <a href="#home">Home</a>
     <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <div class="dropdown">
+      <button class="dropbtn">Projects
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/index.html">HTML Stuff</a>
+        <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project Healthy Recipes/index.html">Healthy Recipes</a>
+        <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project OIivia Woodruff Portfolio/index.html">OIivia Woodruff Portfolio</a>
+      </div>
+    </div>
+  </div>
+
   </div>
 
   <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/salad.jpg" alt="Kale Caeasar Salad"/>
