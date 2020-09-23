@@ -1,46 +1,49 @@
 img {
-    height: 150px;
-  }
-  
-  h1 {
-  text-align: center;
-  }
-  
-  .description {
-    font-size: 20px;
-    color: green;
-    text-decoration-line: underline;
-    text-decoration-style: double;  
-    text-decoration-color: green;
-    text-align: center;
-  }
-  
-  #cook-time {
-    font-weight: bold;
-    font-size: 15px;
-  }
-  
-  .ingredients {
-    list-style: square;
-    }
-  
-  .time {
-    color: gray;
-  }
-  
-  li {
-    text-decoration: underline;
-  }
-  
-  .external-link {
-    color: SeaGreen;
-  }
-  
-  h1,h2,p,li {
-    font-family: Helvetica;
-  }
+  height: 150px;
+}
 
-  /* Add a black background color to the top navigation */
+h1 {
+  text-align: center;
+}
+
+.description {
+  font-size: 20px;
+  color: green;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: green;
+  text-align: center;
+}
+
+#cook-time {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.ingredients {
+  list-style: square;
+}
+
+.time {
+  color: gray;
+}
+
+li {
+  text-decoration: underline;
+}
+
+.external-link {
+  color: SeaGreen;
+}
+
+h1,
+h2,
+p,
+li {
+  font-family: Helvetica;
+}
+
+/* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -64,6 +67,6 @@ img {
 
 /* Add a color to the active/current link */
 .topnav active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }
