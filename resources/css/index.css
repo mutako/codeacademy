@@ -9,8 +9,8 @@ img {
   .description {
     font-size: 20px;
     color: purple;
-    text-decoration: underline;
-    text-decoration-style: wavy;  
+    text-decoration-line: underline;
+    text-decoration-style: double;  
     text-decoration-color: green;
     text-align: center;
   }
