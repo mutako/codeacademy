@@ -1,0 +1,44 @@
+img {
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.description {
+  font-size: 20px;
+  color: green;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: green;
+  text-align: center;
+}
+
+#cook-time {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.ingredients {
+  list-style: square;
+}
+
+.time {
+  color: gray;
+}
+
+li {
+  text-decoration: underline;
+}
+
+.external-link {
+  color: SeaGreen;
+}
+
+h1,
+h2,
+p,
+li {
+  font-family: Helvetica;
+}
