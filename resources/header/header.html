@@ -15,9 +15,9 @@
         <a href="#careers">Careers</a>
       </div>
     </div>
-    <div class="subnav">
+    <div id="subnav">
       <button class="subnavbtn">Projects<i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
+      <div id="subnav-content">
         <a href="/Selectors and Visual Rules/index.html">Rise of Soccer in the US</a>
         <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project Healthy Recipes/index.html">Project Healthy Recipes</a>
         <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project OIivia Woodruff Portfolio/index.html">OIivia Woodruff Portfolio</a>
@@ -45,8 +45,12 @@
     var currentScrollPos = window.pageYOffset;
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
+        document.getElementById("subnav").style.top = "0";
+        document.getElementById("subnav-content").style.top = "0";
       } else {
         document.getElementById("navbar").style.top = "-50px";
+        document.getElementById("subnav").style.top = "-50px";
+        document.getElementById("subnav-content").style.top = "-50px";
       }
       prevScrollpos = currentScrollPos;
     }
