@@ -1,7 +1,7 @@
 /* Here starts the navigation dropdown section */
 
 /* The navigation menu */
-#navbar {
+.navbar {
   overflow: hidden;
   background-color: #333;
   top: 0; /* Stay on top */
@@ -10,7 +10,7 @@
 }
 
 /* Navigation links */
-#navbar a {
+.navbar a {
   float: left;
   font-size: 16px;
   color: white;
@@ -38,7 +38,7 @@
 }
 
 /* Add a red background color to navigation links on hover */
-#navbar a:hover, .subnav:hover .subnavbtn {
+.navbar a:hover, .subnav:hover .subnavbtn {
   background-color: #fc7b03;
 }
 
