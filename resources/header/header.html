@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <!-- The navigation menu -->
-  <div class="navbar">
+  <div id="navbar">
     <a href="/index.html">Home</a>
     <div class="subnav">
       <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
@@ -44,9 +44,9 @@
     window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
       if (prevScrollpos > currentScrollPos) {
-        document.getElementsByClassName("navbar").style.top = "0";
+        document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementsByClassName("navbar").style.top = "-50px";
+        document.getElementById("navbar").style.top = "-50px";
       }
       prevScrollpos = currentScrollPos;
     }
