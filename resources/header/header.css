@@ -64,10 +64,13 @@
 .subnav-content a:hover {
   background-color: #eee;
   color: black;
-  opacity: 100%;
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
   display: block;
+}
+
+.subnav-content:hover .subnav:hover subnavbtn:hover {
+  opacity: 100%;
 }
