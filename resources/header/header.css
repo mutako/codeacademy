@@ -35,12 +35,12 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  opacity: 50%;
 }
 
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: #fc7b03;
+  opacity: 100%;
 }
 
 /* Style the subnav content - positioned absolute */
@@ -51,7 +51,7 @@
   background-color: #fc7b03;
   width: 100%;
   z-index: 1;
-  opacity: 50%;
+  opacity: 80%;
 }
 
 /* Style the subnav links */
