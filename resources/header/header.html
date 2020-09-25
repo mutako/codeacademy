@@ -28,8 +28,8 @@
         <a href="/HTML Stuff/Semantic HTML/index.html">Semantic Html</a>
         <a href="/HTML Stuff/HTML Table Lesson/index.html">Table</a>
         <a href="/HTML Stuff/HTML Fashion Blog/index.html">Fashion Blog</a>
-        <a href="/HTML Stuff/FORMS/story.html">Make your own story</a>
-        <a href="/HTML Stuff/FORMS/story.html" id="no-link">Make your own story</a>
+        <a onclick="window.location.href='/HTML Stuff/FORMS/story.html'">Make your own story</a>
+        <a href="/HTML Stuff/FORMS/story.html" id="no-link">No link in status bar</a>
       </div>
     </div>
     <div class="subnav">
@@ -43,7 +43,7 @@
     </div>
     <a href="#contact">Contact</a>
   </div>
-
+<!-- This is a code to hide the link in the status bar of href with id="no-link" -->
   <script>
     $(document).ready(function () {
       setTimeout(function () {
