@@ -47,7 +47,7 @@
   display: none;
   position: absolute;
   left: 0;
-  background-color: #03fcbe;
+  background-color: #fc7b03;
   width: 100%;
   z-index: 1;
   opacity: 80%;
@@ -71,6 +71,6 @@
   display: block;
 }
 
-.subnav-content:hover .subnav:hover subnavbtn:hover {
+.subnav-content:hover {
   opacity: 100%;
 }
