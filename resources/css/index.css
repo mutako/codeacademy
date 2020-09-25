@@ -44,6 +44,7 @@ li {
 }
 
 .responsive {
+  max-width: 200%;
   width: 100%;
   height: auto;
   margin-left: auto;
