@@ -42,3 +42,8 @@ p,
 li {
   font-family: Helvetica;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
