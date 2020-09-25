@@ -71,6 +71,6 @@
   display: block;
 }
 
-.subnav-content:hover {
+a:hover {
   opacity: 100%;
 }
