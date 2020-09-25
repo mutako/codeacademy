@@ -1,9 +1,10 @@
 <link href="/resources/header/header.css" type="text/css" rel="stylesheet">
+
 <body>
-    <!--  this is the dropdown navigation panel -->
-    <!-- Load font awesome icons -->
+  <!--  this is the dropdown navigation panel -->
+  <!-- Load font awesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
   <!-- The navigation menu -->
   <div class="navbar">
     <a href="/index.html">Home</a>
@@ -19,13 +20,16 @@
       <button class="subnavbtn">Projects<i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
         <a href="/Selectors and Visual Rules/index.html">Rise of Soccer in the US</a>
-        <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project Healthy Recipes/index.html">Project Healthy Recipes</a>
-        <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project OIivia Woodruff Portfolio/index.html">OIivia Woodruff Portfolio</a>
+        <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project Healthy Recipes/index.html">Project
+          Healthy Recipes</a>
+        <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project OIivia Woodruff Portfolio/index.html">OIivia
+          Woodruff Portfolio</a>
         <a href="/HTML Stuff/Wine Festival/index.html">Wine Festival</a>
         <a href="/HTML Stuff/Semantic HTML/index.html">Semantic Html</a>
         <a href="/HTML Stuff/HTML Table Lesson/index.html">Table</a>
         <a href="/HTML Stuff/HTML Fashion Blog/index.html">Fashion Blog</a>
         <a href="/HTML Stuff/FORMS/story.html">Make your own story</a>
+        <a href="/HTML Stuff/FORMS/story.html" id="no-link">Make your own story</a>
       </div>
     </div>
     <div class="subnav">
@@ -39,4 +43,24 @@
     </div>
     <a href="#contact">Contact</a>
   </div>
-    </body>
+
+  <script>
+    $(document).ready(function () {
+      setTimeout(function () {
+
+        $('a[href]#no-link').each(function () {
+          var href = this.href;
+
+          $(this).removeAttr('href').css('cursor', 'pointer').click(function () {
+            if (href.toLowerCase().indexOf("#") >= 0) {
+
+            } else {
+              window.open(href, '_blank');
+            }
+          });
+        });
+
+      }, 500);
+    });
+  </script>
+</body>
