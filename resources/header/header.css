@@ -40,7 +40,6 @@
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: #fc7b03;
-  opacity: 100%;
 }
 
 /* Style the subnav content - positioned absolute */
@@ -59,6 +58,7 @@
   float: left;
   color: white;
   text-decoration: none;
+  opacity: 100%;
 }
 
 /* Add a grey background color on hover */
