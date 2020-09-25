@@ -4,6 +4,9 @@
 .navbar {
   overflow: hidden;
   background-color: #333;
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 /* Navigation links */
@@ -36,7 +39,7 @@
 
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
+  background-color: #fc7b03;
 }
 
 /* Style the subnav content - positioned absolute */
