@@ -7,6 +7,7 @@
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  position: fixed; /* Make it stick/fixed */
 }
 
 /* Navigation links */
@@ -47,7 +48,7 @@
   display: none;
   position: absolute;
   left: 0;
-  background-color: red;
+  background-color: #fc7b03;
   width: 100%;
   z-index: 1;
 }
