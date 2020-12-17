@@ -57,6 +57,10 @@ li {
   animation-iteration-count: infinite;
 }
 
+#main {
+  text-align: center;
+}
+
 @keyframes shake {
   0% { transform: translate(15px, 15px) rotate(0deg); }
   10% { transform: translate(30px, 30px) rotate(-5deg); }
