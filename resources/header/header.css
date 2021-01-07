@@ -84,8 +84,9 @@ body {
   background-color: #ddd;
   opacity: 100%;
 }
-.subnav-content:hover {
-  opacity: 100%;
+
+a:hover {
+  opacity:100%;
 }
 
 /* Clear floats after the columns */
