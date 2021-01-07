@@ -84,7 +84,7 @@ body {
   background-color: #ddd;
   opacity: 100%;
 }
-.subnav:hover {
+.subnav-content:hover {
   opacity: 100%;
 }
 
