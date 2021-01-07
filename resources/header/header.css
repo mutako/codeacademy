@@ -82,6 +82,7 @@ body {
 
 .column a:hover {
   background-color: #ddd;
+  opacity: 100%;
 }
 
 /* Clear floats after the columns */
