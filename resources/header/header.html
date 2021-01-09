@@ -1,67 +1,91 @@
 <link href="/resources/header/header.css" type="text/css" rel="stylesheet">
-
 <body>
-  <!--  this is the dropdown navigation panel -->
-  <!-- Load font awesome icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--  this is the dropdown navigation panel -->
+    <!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- The navigation menu -->
-  <div class="navbar">
-    <a href="/index.html">Home</a>
-    <div class="subnav">
-      <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
-        <a href="#company">Company</a>
-        <a href="#team">Team</a>
-        <a href="#careers">Careers</a>
-      </div>
-    </div>
-    <div class="subnav">
-      <button class="subnavbtn">Projects<i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
-        <div class="header">
-          <h2>Programming projects</h2>
-        </div>   
-        <div class="row">
-          <div class="column">
-            <h3>Category 1</h3>
-            <a href="/Selectors and Visual Rules/index.html">Rise of Soccer in the US</a>
-            <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project Healthy Recipes/index.html">Project
-              Healthy Recipes</a>
-            <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project OIivia Woodruff Portfolio/index.html">OIivia
-              Woodruff Portfolio</a>
-          </div>
-          <div class="column">
-            <h3>Category 2</h3>
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <div class="dropdown" style="width: 110px">
+        <button class="dropbtn" style="font-size: 14px">Dropdown
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <div class="row2">
 
-            <a href="/HTML Stuff/Wine Festival/index.html">Wine Festival</a>
-            <a href="/HTML Stuff/Semantic HTML/index.html">Semantic Html</a>
-            <a href="/HTML Stuff/HTML Table Lesson/index.html">Table</a>
+
+                <a href="http://google.com" class="header22" id="ga">
+
+                    <img src="https://image.shutterstock.com/image-vector/real-estate-logo-260nw-1615688014.jpg"
+                        style="width:50px;  height:50% ">
+                    <br>
+                    <p>
+                        Hello world1
+                    </p>
+                </a>
+
+                <a href="http://google.com" class="header22">
+                    <span style="display: block">
+                        Hello world2
+                    </span>
+                </a>
+                <a href="http://google.com" class="header22">
+                    <span style="display: block">
+                        Hello world3
+                    </span>
+                </a>
+
+
+                <!--
+     <a href="#">
+          <div class="header2">
+          
+            <img src="https://image.shutterstock.com/image-vector/real-estate-logo-260nw-1615688014.jpg" style="width:50px;  height:50% ">
+             <h2>Mega Menu</h2>
+             
           </div>
-          <div class="column">
-            <h3>Category 3</h3>
-            <a href="/HTML Stuff/HTML Fashion Blog/index.html">Fashion Blog</a>
+          </a>
+          <div class="header2">
+            <h2 >Mega Menu2</h2>
+          </div>
+          -->
+            </div>
+            <div class="row">
+                <div class="column" id="ga">
+                    <h3>Category 1</h3>
+                    <a href="/Selectors and Visual Rules/index.html">Rise of Soccer in the US</a>
+                    <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project Healthy Recipes/index.html">Project
+                        <a href="/Selectors and Visual Rules/Selectors and Visual Rules - Project OIivia Woodruff Portfolio/index.html">OIivia
+                            Woodruff Portfolio</a>                </div>
+                <div class="column">
+                    <h3>Category 2</h3>
+                    <a href="/HTML Stuff/HTML Fashion Blog/index.html">Fashion Blog</a>
             <!-- This is pretty cool, will do the same as the script below - hide the link in the status with far less code-->
             <a onclick="window.location.href='/HTML Stuff/FORMS/story.html'">Make your own story</a>
             <a href="/HTML Stuff/Intro to Local Website Development/index.html" id="no-link">Dasmoto's Arts & Crafts</a>
-          </div>
+                </div>
+                <div class="column">
+                    <h3>Category 3</h3>
+                    <a href="/HTML Stuff/Wine Festival/index.html">Wine Festival</a>
+                    <a href="/HTML Stuff/Semantic HTML/index.html">Semantic Html</a>
+                    <a href="/HTML Stuff/HTML Table Lesson/index.html">Table</a>
+                </div>
+            </div>
         </div>
-        
-
-      </div>
     </div>
-    <div class="subnav">
-      <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
-        <a href="#link1">Link 1</a>
-        <a href="#link2">Link 2</a>
-        <a href="#link3">Link 3</a>
-        <a href="#link4">Link 4</a>
-      </div>
+</div>
+<div style="padding:16px">
+      <h3>balbllalba</h3>
+      <p>Hover over the "Dropdown" link to see the mega menu.</p>
+      <p>Re</p>
     </div>
-    <a href="#contact">Contact</a>
-  </div>
-<!-- This is a code to hide the link in the status bar of href with id="no-link" -->
+    
+    <div style="padding:16px">
+      <h3>Responsive Mega Menu (Full-width dropdown in navbar)</h3>
+      <p>Hover over the "Dropdown" link to see the mega menu. </p>
+    </div>
+    <!-- This is a code to hide the link in the status bar of href with id="no-link" -->
   <script>
     $(document).ready(function () {
       setTimeout(function () {
@@ -81,4 +105,4 @@
       }, 500);
     });
   </script>
- </body>
+   </body>
