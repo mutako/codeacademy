@@ -104,6 +104,8 @@ line-height: 1;
   text-decoration: none;
   display: block;
   text-align: left;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 .column a:hover {
